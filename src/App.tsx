@@ -1,16 +1,16 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate, Outlet } from 'react-router'
 
-import Navbar from './Navbar'
-import Home from './Home'
-import Create from './Create'
-import AddNewQuestion from './AddNewQuestion'
-import AddNewTopic from './AddNewTopic'
-import AddNewMechanic from './AddNewMechanic'
-import BrowseQuestions from './BrowseQuestions'
-import BrowseTopics from './BrowseTopics'
-import BrowseMechanics from './BrowseMechanics'
-import PageNotFound from './PageNotFound'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Create from './pages/Create'
+import AddNewQuestion from './pages/AddNewQuestion'
+import AddNewTopic from './pages/AddNewTopic'
+import AddNewMechanic from './pages/AddNewMechanic'
+import BrowseQuestions from './pages/BrowseQuestions'
+import BrowseTopics from './pages/BrowseTopics'
+import BrowseMechanics from './pages/BrowseMechanics'
+import PageNotFound from './pages/PageNotFound'
 
 function Add() {
   return <Outlet />

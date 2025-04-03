@@ -40,7 +40,7 @@ export default function FoldingSecondaryMenu({
                 selected === item ? 'secondary.main' : 'transparent',
               padding: '6px 14px',
               marginLeft: '8px',
-              color: '#fff'
+              color: 'primary.contrastText'
             }}
             onClick={() => {
               handleClick(item)

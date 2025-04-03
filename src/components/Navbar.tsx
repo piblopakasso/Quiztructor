@@ -8,8 +8,8 @@ import AddBoxIcon from '@mui/icons-material/AddBox'
 import InventoryIcon from '@mui/icons-material/Inventory'
 import DesignServicesIcon from '@mui/icons-material/DesignServices'
 
-import CustomMenuButton from './components/CustomMenuButton'
-import FoldingSecondaryMenu from './components/FoldingSecondaryMenu'
+import CustomMenuButton from './CustomMenuButton'
+import FoldingSecondaryMenu from './FoldingSecondaryMenu'
 
 const addOptions = ['New Question', 'New Topic', 'New Mechanic']
 const browseOptions = ['Questions', 'Topics', 'Mechanics']

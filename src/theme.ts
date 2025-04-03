@@ -8,6 +8,10 @@ export const themeOptions: ThemeOptions = {
     },
     secondary: {
       main: '#ad1457'
+    },
+    text: {
+      primary: 'rgba(0,0,0,0.87)',
+      secondary: '#757575'
     }
   }
 }
