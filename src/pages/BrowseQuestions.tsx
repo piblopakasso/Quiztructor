@@ -58,7 +58,7 @@ export default function BrowseQuestions() {
           >
             <ListItem>
               <ListItemIcon sx={{ minWidth: '24px' }}>
-                <Typography>{data.id}.</Typography>
+                <Typography>{data.id}.</Typography> {/**/}
               </ListItemIcon>
 
               <ListItemIcon title="Was used" sx={{ minWidth: '32px' }}>
