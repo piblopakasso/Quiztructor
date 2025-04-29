@@ -7,12 +7,8 @@ import Typography from '@mui/material/Typography'
 import Chip from '@mui/material/Chip'
 import Stack from '@mui/material/Stack'
 
+import { Topic } from '../types/topics'
 import SomethingWentWrong from '../components/SomethingWentWrong'
-
-type Topic = {
-  name: string
-  count: number
-}
 
 export default function AddNewTopic() {
   const [topics, setTopics] = useState<Topic[]>([])
